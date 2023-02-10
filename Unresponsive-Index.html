@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML, CSS, JS</title>
+<style>
+
+/* Unresponsive HTML */
+
+
+/* Setting font family for all contents in the body */
+body{
+ font-family: Segoe UI;
+}
+
+/*  Configurating height,width, bgImage and overflow for Main div  */
+#mainpanel{
+ background-image: url("https://images.news18.com/ibnlive/uploads/2021/08/1628332739_coworking-space-1200x800.png?impolicy=website&width=1000&height=556");
+background-repeat: no-repeat;
+background-size: cover;
+height:650px;
+width:80%;
+overflow:hidden;
+}
+
+/* Moving element (div) to center */
+.center{
+color:#fff;
+display: flex;
+justify-content: center;
+}
+
+/* Configuring height, width, bgcolor and opacity for Inside div */
+#content-inside{
+height:100%;
+width:100%;
+/*background-color:black;*/
+background-color:#25323a;
+opacity:0.8;
+}
+
+/* Moving text to Center */
+.txt-center{
+text-align:center;
+}
+
+
+/* Header text size and position alignment  */
+.headertxt{
+font-weight:bolder;
+font-size: 70px;
+margin-top:10px;
+}
+
+
+/* setting Image size */
+.image-size{
+ width:120px;
+ height:120px;
+}
+
+/* Adding text-line height and removing border for all table elements */
+table{
+line-height: 2px;
+border:none;
+}
+
+/* Adding color for the hr element */ 
+hr{
+border-color:#7b8b96;
+}
+
+/* Adding space on top of the element (Spacing inside the element) */
+.top-spacing{
+padding-top:28px;
+}
+
+/* Moving Table element to top  (Spacing outside the element) */
+.table-top-spacing{
+margin-top:-40px;
+}
+
+/* Heading left side spacing  (Spacing inside the element) */
+.left-H-spacing{
+padding-left: 40px;
+}
+
+/* Sub-Heading left side spacing (Spacing inside the element) */
+.left-Sub-spacing{
+padding-left: 20px;
+}
+
+/* Right Side Description panel text-line height adjustment*/
+.right-desc-panel{
+line-height: 10px;
+}
+
+/* Adding space after the bullet and changing font size to 18px */
+.bullet-spacing{
+ margin-left: -6px;
+ font-size: 18px;
+}
+
+/* Changing Bullet Size to Small */
+li{
+font-size:12px;
+}
+
+/* Adding space before the "h3 element's contents" (Spacing inside the element) */
+h3{
+padding-left:3px;
+}
+
+</style>
+</head>
+
+<!-- Unresponsive HTML -->
+
+<body>
+<div class="center">
+<div id="mainpanel">
+<div id="content-inside">
+<div>
+<br>
+<h1 class="headertxt txt-center">What's the Difference?</h1>
+
+<!-- HTML Row -->
+<table class="table-top-spacing"> <tr>
+<td class="left-H-spacing">
+<img class="image-size" src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-html-logo-0.png" />
+</td>
+<td style="width:350px;" class ="left-Sub-spacing">
+<h1 class="headertxt top-spacing">HTML</h1>
+<h3>Hypertext Markup Language</h3>
+</td>
+<td>
+<div class="right-desc-panel">
+<h1 style="font-weight: 400;" class="left-Sub-spacing"><i>Create the structure</i></h1>
+<ul style="line-height:25px;">
+<li><span class="bullet-spacing">Controls the layer of the content</span></li>
+<li><span class="bullet-spacing">Provides structure for the web page design</span></li>
+<li><span class="bullet-spacing">The fundamental building block of any web page</span></li>
+</ul>
+</div>
+</td>
+</tr></table>
+<hr>
+
+<!-- CSS Row -->
+<table> <tr>
+<td class="left-H-spacing">
+<img class="image-size" src="./assets/css-logo.png" />
+</td>
+<td style="width:350px;" class ="left-Sub-spacing">
+<h1 class="headertxt top-spacing">CSS</h1>
+<h3>Cascading Style Sheet</h3>
+</td>
+<td>
+<div class="right-desc-panel">
+<h1 style="font-weight: 400;" class="left-Sub-spacing">
+<i>Stylize the website</i></h1>
+<ul style="line-height:25px;">
+<li>
+<span class="bullet-spacing">Applies style to the web page elements</span></li>
+<li><span class="bullet-spacing">Targets various screen sizes to make web pages responsive</span></li>
+<li><span class="bullet-spacing">Primarily handles the "look and feel" of a web page</span></li>
+</ul>
+</div>
+</td>
+</tr></table>
+<hr>
+
+
+<!-- Javascript Row -->
+<table> <tr>
+<td class="left-H-spacing">
+<img class="image-size" src="https://www.freepnglogos.com/uploads/javascript-png/js-logo-png-5.png" />
+</td>
+<td style="width:350px;" class ="left-Sub-spacing">
+<h1 class="headertxt top-spacing">Javascript</h1>
+<h3></h3>
+</td>
+<td>
+<div class="right-desc-panel">
+<h1 style="font-weight: 400;" class="left-Sub-spacing"><i>Increase interactivity</i></h1>
+<ul style="line-height:25px;">
+<li><span class="bullet-spacing">Adds interactivity</span></li>
+<li><span class="bullet-spacing">Handles complex functions and features</span></li>
+<li><span class="bullet-spacing">Programmatic code which enhances functionality</span></li>
+</ul>
+</div>
+</td>
+</tr></table>
+
+
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
